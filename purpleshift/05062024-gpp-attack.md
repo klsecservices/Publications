@@ -21,4 +21,4 @@
 
 ![Содержимое xml-файла с cpassword](https://github.com/klsecservices/Publications/blob/master/purpleshift/pics-GPP/4honeypot.png?raw=true)
 
-Для создания подобного xml-файла, имитирующего GPP и cpassword в нём, подойдёт скрипт [GPPDeception](https://github.com/RedSiege/GPPDeception). Также отличным инструментом для создания ловушек является [AD-Canaries](https://github.com/AirbusProtect/AD-Canaries), который рекомендуем взять на вооружение всем командам Blue Team.
+Для создания подобного xml-файла, имитирующего GPP и cpassword в нём, подойдёт скрипт [GPPDeception](https://github.com/RedSiege/GPPDeception). Также отличным инструментом для создания таких ловушек является [AD-Canaries](https://github.com/AirbusProtect/AD-Canaries), который рекомендуем взять на вооружение всем командам Blue Team.
