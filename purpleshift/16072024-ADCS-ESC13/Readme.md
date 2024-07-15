@@ -31,7 +31,7 @@
 ![FindGT](image-14.png)
 
 
-Для аудита подобных, потенциально эксплуатируемых конфигураций, отлично подойдет скрипт Йонаса Кнудсена из Specter Ops, который первым описал атаку ESC13: [Check-ADCSESC13.ps1](https://github.com/JonasBK/Powershell/blob/master/Check-ADCSESC13.ps1).
+Для аудита подобных, потенциально эксплуатируемых конфигураций, отлично подойдет скрипт [Check-ADCSESC13.ps1](https://github.com/JonasBK/Powershell/blob/master/Check-ADCSESC13.ps1) Йонаса Кнудсена из Specter Ops, который первым описал атаку ESC13.
 
 Детектировать эту атаку во время эксплуатации, а не на этапе аудита, возможно по изменениям соответствующих объектов в AD. Например, при правильно настроенном аудите объектов AD и ADCS, можем получить событие добавления **Issuance Policy** в **Certificate Template**:
 
